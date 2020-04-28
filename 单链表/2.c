@@ -26,5 +26,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
         temp2 = temp2==NULL?NULL:temp2->next;
     }
     printf("first time fetch the change from github");
+    printf("finally i find the way to choosing change the local code!");
     return resultlist->next;//有头结点的话方便循环，结尾只要返回头结点->next就行了
 }
