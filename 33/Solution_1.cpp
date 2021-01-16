@@ -13,7 +13,6 @@ public:
         if (target == nums[length-1]) return length - 1;
 
         int start = 0, end = nums.size() - 1;
-
         while (start + 1 < end) {//找旋转点
             int mid = start + (end - start)/2;
 
@@ -27,7 +26,7 @@ public:
         if (nums[start] <= nums[end]) { // 根据旋转点找起点终点
             start = 0;
             end = length - 1;
-        }else {
+        } else {
             if (target > nums[length - 1]) {
                 end = start;
                 start = 0;
