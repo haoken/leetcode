@@ -7,9 +7,7 @@ public:
         if (nums.empty()) {
             return false;
         }
-
-
-
+        
         int length = nums.size();
         int start = 0, end = length - 1;
         if (nums[start] == target || nums[end] == target) {
