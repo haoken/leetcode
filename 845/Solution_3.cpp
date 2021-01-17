@@ -49,6 +49,10 @@ public:
         return res;
         
     }
+private:
+    int max(int a, int b) {
+        return a < b ? b : a;
+    }
 };
 
 int main() {
